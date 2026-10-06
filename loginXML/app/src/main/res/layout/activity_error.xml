@@ -12,14 +12,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="¡Error de autenticación, User!"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="356dp" />
+        android:textColor="#CB3F36"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="352dp" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="300dp"
         android:layout_height="52dp"
         android:text="El usuario o la contraseña son incorrectos. Por favor, verifica tus credenciales e inténtalo de nuevo."
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -44,6 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="¿Olvidaste tu contraseña?"
+        android:textColor="#D44136"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
